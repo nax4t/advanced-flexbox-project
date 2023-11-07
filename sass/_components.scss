@@ -105,9 +105,6 @@
     justify-content: center;
   }
 
-  &__user {
-  }
-
   &__user-photo {
     height: 3.75rem;
     border-radius: 50%;
@@ -361,9 +358,6 @@
     color: var(--grey-dark-2);
   }
 
-  &__friends {
-  }
-
   &__photo {
     box-sizing: content-box;
     height: 4rem;
@@ -372,7 +366,7 @@
     border: 2px solid var(--grey-light-1);
 
     &:not(:last-child) {
-      margin-right: -1.5rem;
+      margin-right: -2rem;
     }
   }
 }
